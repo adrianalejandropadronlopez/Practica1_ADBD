@@ -113,3 +113,11 @@ Las distintas relaciones que se pueden encontrar en el diseño son las siguiente
   Esta relación es unicamente entre compra y cliente con crédito puesto que aquellos clientes que no tienen crédito no almacenamos ningún dato de ellos, en cambio de los clientes con crédito almacenamos su número de seguridad social, sus datos bancarios y la fecha de pago.
 
   En cuanto a la cardinalidad de la relación se puede decir que una compra puede ser realizada por 0 o 1 cliente con crédito, es decir, que el cliente que realice la compra puede o no tener crédito. Por otro lado, un cliente con crédito puede realizar 1 o varias compras, es decir, puede realizar varias compras a crédito.
+
+## **Restricciones semantícas**
+
+Las restricciones semánticas que se pueden encontrar en el diseño son las siguientes:
+
+- Si no hay stock de un determinado medicamento se ofrece un medicamento que pertenezca a la misma familia.
+
+- Si un medicamento se vende con receta, el cliente debe presentar la receta en el momento de la compra.
