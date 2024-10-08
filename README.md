@@ -116,7 +116,7 @@ Las distintas relaciones que se pueden encontrar en el diseño son las siguiente
 
 ## **Restricciones semantícas**
 
-Las restricciones semánticas que se pueden encontrar en el diseño son las siguientes:
+Algunas de las restricciones semánticas que se pueden encontrar en el diseño son las siguientes:
 
 - Si no hay stock de un determinado medicamento se ofrece un medicamento que pertenezca a la misma familia.
 
